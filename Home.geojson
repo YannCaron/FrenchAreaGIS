@@ -1,0 +1,5 @@
+{
+  "type": "Feature",
+  "geometry": {"type": "Point", "coordinates": [6.232510, 46.190687]},
+  "properties": {"name": "Maison"}
+}

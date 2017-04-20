@@ -1,0 +1,50 @@
+  { "type": "FeatureCollection",
+    "features": [
+      	{
+	  "type": "Feature",
+	  "geometry": {"type": "Point", "coordinates": [4.755305, 45.405228]},
+	  "properties": {"name": "CNPE de Saint Alban"}
+	},
+	{
+	  "type": "Feature", 
+	  "geometry": {"type": "Point", "coordinates": [5.266201, 45.801350]},
+	  "properties": {"name": "Centrale Nucléaire EDF du Bugey"}
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {"type": "Point", "coordinates": [5.473106, 45.759398]},
+	  "properties": {"name": "Centrale Électrique de Creys-Malville"}
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {"type": "Point", "coordinates": [4.755316, 45.405228]},
+	  "properties": {"name": "CNPE de Saint Alban"}
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {"type": "Point", "coordinates": [4.751061, 44.632519]},
+	  "properties": {"name": "Centrale Nucléaire de Cruas-Meysse"}
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {"type": "Point", "coordinates": [4.731995, 44.338928]},
+	  "properties": {"name": "C.N.P.E. du Tricastin"}
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {"type": "Point", "coordinates": [4.695365, 44.141254]},
+	  "properties": {"name": "Centre de Marcoule"}
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {"type": "Point", "coordinates": [7.563115, 47.903045]},
+	  "properties": {"name": "Centrale nucléaire de Fessenheim"}
+	},
+	{
+	  "type": "Feature",
+	  "geometry": {"type": "Point", "coordinates": [5.740737, 43.699225]},
+	  "properties": {"name": "Cadarache"}
+	}
+       ]
+     }
+
