@@ -12,7 +12,10 @@
 * Vichy (trop loin) - 7.54
 
 ## A visiter
-* Champagnole
+* Champagnole- 7.03
+* Voiron (attention centrales) - 7.49
 
 ## Ressources
 http://www.ville-ideale.com
+http://www.fairedelavoile.fr/naviguer/trouver-un-club-de-voile.aspx
+

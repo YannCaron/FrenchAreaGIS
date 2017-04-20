@@ -12,9 +12,9 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="Dangers">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Dangers">
       <customproperties/>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="Sites_Nucléaires_OGRGeoJSON_Point_copy20170322111610078" name="Sites Nucléaires">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Sites_Nucléaires_OGRGeoJSON_Point_copy20170322111610078" name="Sites Nucléaires">
         <customproperties>
           <property key="expandedLegendNodes"/>
         </customproperties>
@@ -22,7 +22,7 @@
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="Sites_Nucléaires_30km20170328100821298" name="Sites Nucléaires 30kms">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="Sites_Nucléaires_80km20170328100842401" name="Sites Nucléaires 80kms">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Sites_Nucléaires_80km20170328100842401" name="Sites Nucléaires 80kms">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="Départements_Sismiques20170328150934399" name="Dépt. Sismiques">
@@ -57,10 +57,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>2.88429837049421334</xmin>
-      <ymin>42.95931840959632098</ymin>
-      <xmax>7.64583728298322907</xmax>
-      <ymax>46.77641985183957729</ymax>
+      <xmin>4.25757065456576544</xmin>
+      <ymin>44.64029715059878356</ymin>
+      <xmax>6.63834011081027331</xmax>
+      <ymax>46.54884787172041172</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -173,10 +173,10 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Checked" name="Dangers">
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Sites Nucléaires" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Dangers">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Sites Nucléaires" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Sites_Nucléaires_OGRGeoJSON_Point_copy20170322111610078" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Sites_Nucléaires_OGRGeoJSON_Point_copy20170322111610078" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Sites Nucléaires 30kms" showFeatureCount="0">
@@ -184,9 +184,9 @@
           <legendlayerfile isInOverview="0" layerid="Sites_Nucléaires_30km20170328100821298" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Sites Nucléaires 80kms" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Sites Nucléaires 80kms" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Sites_Nucléaires_80km20170328100842401" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Sites_Nucléaires_80km20170328100842401" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Dépt. Sismiques" showFeatureCount="0">
@@ -3195,7 +3195,7 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
         <xmin>3.69529075281500097</xmin>
         <ymin>42.9796764954961219</ymin>
@@ -3238,7 +3238,7 @@ def my_form_open(dialog, layer, feature):
       </edittypes>
       <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
         <symbols>
-          <symbol alpha="0.290196" clip_to_extent="1" type="fill" name="0">
+          <symbol alpha="0.156863" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="color" v="255,127,0,255"/>
@@ -3287,7 +3287,7 @@ def my_form_open(dialog, layer, feature):
         <property key="labeling/fieldName" value=""/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value="Cantarell"/>
+        <property key="labeling/fontFamily" value="Noto Sans"/>
         <property key="labeling/fontItalic" value="false"/>
         <property key="labeling/fontLetterSpacing" value="0"/>
         <property key="labeling/fontLimitPixelSize" value="false"/>
@@ -3424,7 +3424,7 @@ def my_form_open(dialog, layer, feature):
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description="Cantarell,11,-1,5,50,0,0,0,0,0" style=""/>
           <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
