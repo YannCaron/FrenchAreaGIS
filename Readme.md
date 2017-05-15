@@ -16,6 +16,8 @@
 * Champagnole - 7.03
 * Voiron (attention centrales) - 7.49
 
+** la Drôme
+
 ## Ressources
 http://www.ville-ideale.com
 http://www.fairedelavoile.fr/naviguer/trouver-un-club-de-voile.aspx
