@@ -12,7 +12,8 @@
 * Vichy (trop loin) - 7.54
 
 ## A visiter
-* Champagnole- 7.03
+* Miribelle (lac + vent) - 6.29
+* Champagnole - 7.03
 * Voiron (attention centrales) - 7.49
 
 ## Ressources
