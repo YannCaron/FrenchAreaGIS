@@ -15,6 +15,7 @@
 * Miribelle (lac + vent) - 6.29
 * Champagnole - 7.03
 * Voiron (attention centrales) - 7.49
+* Bèze (prés Dijon + lac + vent - 6.93)
 
 ** la Drôme
 
